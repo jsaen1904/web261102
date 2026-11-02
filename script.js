@@ -23,7 +23,8 @@ for (let i = 0; i < ratings.length; i++) {
     console.log("최고:", titles[maxIndex], max);
 }
 
-for (let count = 0; count < ratings.length; count++) {
+let count = 0;
+for(let i = 0; i < ratings.length; i++) {
     if (ratings[i] >= 8) count++;
 }
 
@@ -39,10 +40,6 @@ for (let i = 0; i < ratings.length; i++) {
     } else {
         label = "보통"
     }
-    console.log(titles[i] + " (" + years[i] + ") : " + ratings[i] + " " + label);
-    console.log(titles[i] + " (" + years[i] + ") : " + ratings[i] + " " + label);
-    console.log(titles[i] + " (" + years[i] + ") : " + ratings[i] + " " + label);
-    console.log(titles[i] + " (" + years[i] + ") : " + ratings[i] + " " + label);
     console.log(titles[i] + " (" + years[i] + ") : " + ratings[i] + " " + label);
 }
 
